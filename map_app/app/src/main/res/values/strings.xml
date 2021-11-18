@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">한눈에 보는 지역정보</string>
+    <string name="list_name_1">통계 모음</string>
+    <string name="list_name_2">지역 비교</string>
+    <string name="list_name_3">전국 비교</string>
+    <string name="list_name_100">개발자 정보</string>
+
+    <string name="title_select_string">통계 선택하기</string>
+    <string name="subtitle_select_string">항목 선택하기</string>
+</resources>

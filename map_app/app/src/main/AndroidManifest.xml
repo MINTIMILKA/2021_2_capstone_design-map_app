@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.map_app">
+
+<!--I/System.out: (HTTPLog)-Static: isSBSettingEnabled false 에러는 android:usesCleartextTraffic="true"를 입력하여 해결함 -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+<!--네이버 클라이언트 ID 지정-->
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="zk8aedplld" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainStatisticalList"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".StatisticalSelectMenu"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".StatisticalSelect_List"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".NationCompMenu"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".NationComp_List"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+    </application>
+
+</manifest>

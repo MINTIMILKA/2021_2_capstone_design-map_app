@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.map_app.MainActivity">
+<!--    지역 통계 비교하기 메뉴-->
+    <item
+        android:id="@+id/statistic_select_item"
+        android:orderInCategory="1"
+        android:title="@string/list_name_1"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/nation_comp_item"
+        android:orderInCategory="3"
+        android:title="@string/list_name_3"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/dev_info"
+        android:orderInCategory="100"
+        android:title="@string/list_name_100"
+        app:showAsAction="never"/>
+</menu>
